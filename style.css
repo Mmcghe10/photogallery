@@ -1,0 +1,427 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}   
+
+body {
+    width: 485px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height:fit-content;
+}
+h1 {
+    color: #007d7b;
+    font-size: 48px; 
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+}
+nav h2{
+    visibility: hidden;
+    
+}
+
+ul {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-transform: uppercase;
+    justify-items: center;
+    padding: 35px;
+    font-weight: bolder;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size:25px;
+}
+
+nav {
+    position: relative;
+    align-items: center;
+}
+
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    outline-width: 2px;
+    outline: solid;
+    padding: 15px;
+}
+
+section h2 {
+    font-weight: bolder;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+#about p::first-line {
+    line-height: 4;
+}
+
+#about p{
+    margin-bottom: 20px;
+}
+
+#about{
+    padding-top:15px
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    word-spacing: .5px;
+    margin-left:10px;
+}
+
+#gallery p{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    
+}
+
+#gallery img {
+    margin-left:30px ;
+}
+
+.Chile figcaption {
+    color: white;
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -35px;
+}
+
+.Guatemala figcaption {
+    color: white;
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -270px;
+}
+
+.Hawaii figcaption {
+    color: white;
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+}
+
+.Iran figcaption {
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 620px;
+}
+
+.Ireland figcaption {
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 605px;
+}
+
+.Italy figcaption {
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.Desert figcaption {
+    color: white;
+    font-weight:bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.Rocky figcaption {
+    color:#000000;
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 270px;
+}
+
+.Switz figcaption {
+    color:#000000;
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 270px;
+}
+
+.UK figcaption {
+    color:#000000;
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 270px;
+}
+
+.USA figcaption {
+    color:#000000;
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 270px;
+}
+
+.Wyom figcaption { 
+    color: white;
+    font-weight: bold;
+    word-spacing: .5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 270px;
+}
+
+#contact {
+    background-color: #000000;
+    color: white;
+    padding-bottom: 100px;
+}
+
+#contact p{
+    padding-top: 30px;
+    text-align: center;
+}
+
+label[for=name], label[for=email], label[for=message]{
+    font-size: .75em;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+#name, #email, #message {
+    display: grid;
+    margin: 0px 80px 15px 50px;
+    width: 350px;
+    padding: 10px;
+    text-align:left;
+    font-size: .75em;
+    height: 15px;
+}
+
+::placeholder {
+    color: #007d7b;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+    
+}
+
+#submit-btn {
+    background-color: #007d7b;
+    color: white;
+    text-transform: uppercase; 
+    font-weight: bold;
+    width: 240px;
+    border-radius: 2em;
+    padding: 10px;
+    margin-left: 125px;
+}
+
+footer {
+    color: white;
+    text-transform: uppercase;
+    text-align:center;
+    margin: -50px
+}
+
+@media screen and (min-width:880px) {
+    body {
+        width: 880px;
+        margin-bottom: 0;
+        height:fit-content
+    }
+    
+    h1{
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    ul{
+        padding: 2em 11em; 
+        padding-left: 11em;  
+       }
+    
+    
+   #gallery h2 {
+        position: absolute;
+        top: -50px;
+        margin-left: 375px;
+        padding: 5px;
+    }
+   
+    #gallery p {
+        position: absolute;
+        top: -15px;
+        margin-left:30px;
+    }
+    
+    #gallery{
+        display: grid;        
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        margin-left: -20px;
+        margin-right:20px;
+        margin-top: 65px;
+        padding-top: 55px;
+    }
+
+    #gallery img{
+        width:95%;
+    }
+
+    #contact p{
+        padding-bottom:30px;
+    }
+    
+    #name, #email, #message {
+        width: 600px;
+        margin-left: 14%;
+    }
+    
+    label[for=name], label[for=email], label[for=message] {
+        margin-left: 140px;
+    }
+    
+    #submit-btn {
+        width: 450px;
+        margin-left:220px
+    }
+    
+}
+
+@media screen and (min-width:1300px) {
+    body {
+        width: 1300px;
+    }
+    
+    ul {
+        padding: 3em 14em;
+        padding-left:800px;
+        margin-right: -250px;
+        }
+    
+        #gallery h2 {
+        left: 200px;
+    }
+    
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    #gallery figure{
+        margin:0;
+    }
+
+    #gallery img{
+        width:96%;
+        height: auto;
+    }
+
+    #gallery figcaption{
+        text-align: center;
+        margin-top: 5px
+    }
+
+    #name, #email, #message {
+        align-items: center;
+        width: 900px;
+        
+    }
+    
+    label[for=name], label[for=email], label[for=message] {
+        margin-left: 200px;
+    }
+    
+    #submit-btn {
+        width: 600px;
+        margin-left:350px
+    }
+}
